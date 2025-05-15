@@ -12,16 +12,21 @@ df = pd.read_csv("dataset.csv")
 
 # Step 2: Extract features and target
 print("[INFO] Extracting 'feature_1' and 'target' columns...")
-X = df[['feature_1']].values
-y = df[['target']].values
+'''
+Here We need some corretions 🙀
+Fix it! Plz! 🙀
+'''
+X = df
+y = df
 
 # Step 3: Normalize the data
 print("[INFO] Normalizing features and target...")
-scaler_X = StandardScaler()
-scaler_y = StandardScaler()
-
-X_scaled = scaler_X.fit_transform(X)
-y_scaled = scaler_y.fit_transform(y)
+'''
+Here We need some corretions 🙀
+Fix it! Plz! 🙀
+'''
+X_scaled = X
+y_scaled = y
 
 # Step 4: Split into training and test sets
 print("[INFO] Splitting data into training and test sets...")
