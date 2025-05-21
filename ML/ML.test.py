@@ -18,17 +18,16 @@ print("[INFO] Extracting 'feature_1' and 'target' columns...")
 Here We need some corretions 🙀
 Fix it! Plz! 🙀
 '''
-X = df
-y = df
 
 # Step 3: Normalize the data
-print("[INFO] Normalizing features and target...")
+print("[INFO] Normalizing features and target using StandardScaler...")
 '''
 Here We need some corretions 🙀
 Fix it! Plz! 🙀
 '''
-X_scaled = X
-y_scaled = y
+X_scaled = scaler_X.fit_transform(X)
+y_scaled = scaler_y.fit_transform(y)
+
 ########################        Até aqui apenas        ######################## 
 
 
